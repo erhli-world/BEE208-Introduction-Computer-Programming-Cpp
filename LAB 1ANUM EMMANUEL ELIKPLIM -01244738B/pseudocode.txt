@@ -1,0 +1,42 @@
+BEGIN
+INPUT num1,num2
+PRINT num1+num2, num1-num2, num1*num2, num1/num2
+END
+
+BEGIN
+INPUT radius
+PRINT 3.142*radius*radius
+END
+
+BEGIN
+INPUT a,b,c
+IF a=b AND b=c PRINT Equal ELSE PRINT Not Equal
+END
+
+BEGIN
+INPUT text
+IF text=hello PRINT Match ELSE PRINT No Match
+END
+
+BEGIN
+INPUT num
+IF num MOD 2=0 PRINT Even ELSE PRINT Odd
+END
+
+BEGIN
+INPUT num
+IF num MOD 3=0 AND num MOD 2!=0 PRINT Valid ELSE PRINT Invalid
+END
+
+BEGIN
+INPUT a,b
+SWAP a,b USING XOR
+PRINT a,b
+END
+
+BEGIN
+INPUT n
+IF n>0 AND (n AND n-1)=0 PRINT Power of 2
+END
+ANUM EMMANUEL ELIKPLIM – 01244738B
+
